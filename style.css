@@ -52,13 +52,13 @@ a:visited {
     margin-bottom: 10px;
 }
 .bg-yellow {   
-    background-color: rgb(187, 205, 50);
+    background-color: rgb(173, 192, 28);
 }
 .bg-red {
-    background-color: rgb(200, 16, 16);
+    background-color: rgb(161, 11, 11);
 }
 .bg-green {
-    background-color: rgb(16, 191, 16);
+    background-color: rgb(1, 101, 1);
 }
 .btn {
     background: #222;
@@ -70,4 +70,31 @@ a:visited {
 }
 .btn:hover {
     opacity: 0.8;
+}
+.list {
+    padding: 0 20px;
+
+}
+.list li {
+    color: #797878;
+    margin-bottom: 10px;
+}
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
 }
