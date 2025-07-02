@@ -4,8 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
+    background: #f2f2f2;
 }
 .info-text p {
     font-style: italic;
     font-weight: bold;
+    color: #043804;
 }
