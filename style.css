@@ -11,3 +11,17 @@ body {
     font-weight: bold;
     color: #043804;
 }
+.card {
+    border: 1px solid #043804;
+    border-radius: 20px;   
+    background: #ffffff;
+}
+.bg-yellow {   
+    background-color: rgb(187, 205, 50);
+}
+.bg-red {
+    background-color: rgb(200, 16, 16);
+}
+.bg-green {
+    background-color: rgb(16, 191, 16);
+}
