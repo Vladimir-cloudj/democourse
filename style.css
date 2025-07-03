@@ -31,6 +31,10 @@ a:visited {
 }
 .info {
     margin-bottom: 20px;
+    display: flex;
+}
+.info-text {
+    margin-left: 40px;
 }
 .info-text p {
     font-style: italic;
@@ -41,6 +45,13 @@ a:visited {
 .info-text h4 {
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
 .card {
     border: 1px solid #043804;
     border-radius: 20px;   
@@ -52,13 +63,13 @@ a:visited {
     margin-bottom: 10px;
 }
 .bg-yellow {   
-    background-color: rgb(173, 192, 28);
+    background-color: rgb(193, 200, 139);
 }
 .bg-red {
-    background-color: rgb(161, 11, 11);
+    background-color: rgb(104, 6, 6);
 }
 .bg-green {
-    background-color: rgb(1, 101, 1);
+    background-color: rgb(20, 108, 20);
 }
 .btn {
     background: #222;
@@ -97,4 +108,45 @@ a:visited {
 .table td:nth-child(2),
 .table td:nth-child(3) {
     color: #86898f;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+@media (max-width: 768px) {
+    .form-row, .form-group  {
+        display: block;
+        text-align: center;
+    }
+    .form-row .form-group {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
 }
